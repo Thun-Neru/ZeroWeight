@@ -1,0 +1,22 @@
+# Publish only these reviewed source paths. Research and generated artifacts stay local.
+/*
+!/.gitignore
+!/README.md
+!/VERSION
+!/requirements.txt
+!/zeroweight/
+!/tests/
+!/scripts/
+!/docs/
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+*.npy
+*.npz
+*.safetensors
+*.gguf
+*.bin
+*.log
+*.err
+.env*
