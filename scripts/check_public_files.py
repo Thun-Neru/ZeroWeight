@@ -4,7 +4,7 @@ import subprocess
 import sys
 
 ALLOWED = {
-    ".gitignore", "README.md", "VERSION", "requirements.txt",
+    ".gitignore", "README.md", "AGENTS.md", "VERSION", "requirements.txt",
     "zeroweight/__init__.py", "zeroweight/__main__.py", "zeroweight/inspect.py",
     "tests/test_inspect.py", "scripts/check_public_files.py", "docs/verification.md",
 }
